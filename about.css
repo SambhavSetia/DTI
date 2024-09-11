@@ -1,0 +1,62 @@
+/* About Us Page Styles */
+.about-container {
+    background: linear-gradient(315deg, #ffffff 0%, #e0f2f1 100%); /* White to light green gradient */
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.about-hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-hero h1 {
+    color: #378b29; /* Green color for heading */
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.about-team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background: #ffffff; /* White background for team members */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+.member-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #378b29; /* Green border for photos */
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #378b29; /* Green color for names */
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}

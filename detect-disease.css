@@ -1,0 +1,107 @@
+/* Detect Disease Page Styles */
+.disease-container {
+    background: linear-gradient(315deg, #e0f2f1 0%, #ffffff 100%); /* Light green to white gradient */
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.disease-hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.disease-hero h1 {
+    color: #378b29; /* Green color for heading */
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.disease-hero p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.disease-form {
+    background: #ffffff; /* White background for form */
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.disease-form::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 10px;
+    background: linear-gradient(90deg, #378b29 0%, #ffffff 50%, #378b29 100%);
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+}
+
+.disease-form input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #378b29; /* Green border for file input */
+    border-radius: 5px;
+    width: 100%;
+}
+
+.disease-form button {
+    background-color: #378b29; /* Green button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.disease-form button:hover {
+    background-color: #2a6a1e; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#result h2 {
+    color: #378b29; /* Green for result heading */
+}
+
+#diseaseInfo {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.disease-info {
+    margin-top: 50px;
+    background: #ffffff; /* White background for info section */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.disease-info h2 {
+    color: #378b29; /* Green color for info heading */
+}
+
+.disease-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.disease-info ul li {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}

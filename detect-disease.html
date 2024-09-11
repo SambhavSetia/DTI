@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="detect-disease.css"> <!-- Additional styling for this page -->
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="detect-disease.html" class="nav-item">Detect Disease</a>
+            <a href="about.html" class="nav-item">About</a>
+            
+        </div>
+    </header>
+
+    <main class="disease-container">
+        <section class="disease-hero">
+            <h1>Plant Disease Detection</h1>
+            <p>Upload an image of a plant leaf to detect any potential diseases.</p>
+        </section>
+        
+        <section class="disease-form">
+            <form id="uploadForm">
+                <input type="file" id="imageUpload" accept="image/*" required>
+                <button type="button" onclick="detectDisease()">Detect Disease</button>
+            </form>
+            <div id="result">
+                <h2>Detection Result</h2>
+                <p id="diseaseInfo">Upload an image to detect disease.</p>
+            </div>
+        </section>
+        
+        <section class="disease-info">
+            <h2>How It Works</h2>
+            <p>Our system uses advanced machine learning algorithms to analyze plant images and identify potential diseases. Here's a brief overview of the process:</p>
+            <ul>
+                <li><strong>Image Upload:</strong> Users upload a clear image of the plant leaf.</li>
+                <li><strong>Analysis:</strong> The image is processed and analyzed by our trained model.</li>
+                <li><strong>Results:</strong> The system provides a detailed report of detected diseases.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Plant Disease Detection. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
